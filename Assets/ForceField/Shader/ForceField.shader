@@ -107,7 +107,7 @@ fixed4 frag(v2f i) : SV_Target
 	float glow = max(intersect, rim);
 
 	//扭曲
-	float4 offset = tex2D(_NoiseTex, i.uv - _Time.xy) * _DistortTimeFactor;
+	float4 offset = tex2D(_NoiseTex, i.uv - _Time.xy * _DistortTimeFactor);
 	i.grabPos.xy -= offset.xy * _DistortStrength;
 	fixed4 color = tex2Dproj(_GrabTempTex, i.grabPos);
 
