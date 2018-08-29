@@ -30,3 +30,11 @@ Assets\SeeThroughWall
 ##### 能量场效果（ForceFieldEffect）
 Assets\ForceField
 ![seethewall4erddw33.gif](http://upload-images.jianshu.io/upload_images/1372105-8a382a96b79895c6.gif?imageMogr2/auto-orient/strip)
+
+##### ref：
+
+【1】Siggraph2011_SpecialEffectsWithDepth_WithNotes。“Special Effects with Depth” talk at SIGGRAPH – Unity Blog
+【2】Unity Shaders - Depth and Normal Textures (Part 2)
+【3】Using Depth Textures Unity手册
+【4】Unity - Get Unity - Download Archive Unity内置shader 
+【5】Makin' Stuff Look Good
